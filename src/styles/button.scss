@@ -1,0 +1,41 @@
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.5rem;
+    background: var(--color-primary);
+    color: var(--grey-2);
+
+    font-family: var(--font-family-primary);
+    font-size: 1rem;
+    font-weight: 700;
+
+    transition: 0.5s;
+
+    &.small{
+        padding-inline: 1rem;
+        height: 1.1875rem;
+        border-radius: 0.125rem;
+        background: var(--grey-2);
+        color: var(--grey-4);
+        font-size: 0.625rem;
+    }
+
+    &.large{
+        padding-inline: 1rem;
+        height: 3rem;
+    }
+
+    &.full{
+        width:100%;
+        
+    }
+
+    &:hover{
+        filter: brightness(1.2);
+        background: var(--color-primary-2);
+        
+    }
+
+}

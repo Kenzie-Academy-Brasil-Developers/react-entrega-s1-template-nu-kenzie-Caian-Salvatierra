@@ -1,0 +1,32 @@
+.flexHomePage{
+    margin: 0 22px;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width:1200px){
+        flex-direction:row ;
+        justify-content: space-evenly;
+        gap: 4rem;
+        max-width: 1200px;
+        width: 100%;
+    }
+    
+}
+
+.box{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1.1875rem;
+   
+}
+
+.summary{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+

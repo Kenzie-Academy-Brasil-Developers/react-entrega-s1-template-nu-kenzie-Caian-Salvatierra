@@ -1,0 +1,29 @@
+
+.flexAmount{
+    display: flex;
+    border: 1px solid var(--grey-2);
+    border-radius: 0.25rem;
+    flex-direction: column;
+    gap:6px;
+
+
+    width: 100%;
+    max-width: 390px;
+    height: 6rem;
+    margin-top:1.1875rem ;
+    padding: 1.4375rem;
+
+}
+
+
+.box{
+    display: flex;
+    justify-content:space-between;
+}
+
+.h3{
+    color: var(--color-primary);
+    font-size: 1rem;
+    font-family: var(--font-family-primary);
+    font-weight: 700;
+}

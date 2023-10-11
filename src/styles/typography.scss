@@ -1,0 +1,31 @@
+.title{
+    font-family: var(--font-family-primary);
+    font-weight: 800;
+    font-size: clamp(0.5rem, 4vw, 2.375rem);
+    line-height: 3rem;
+
+    &.two{
+        font-weight: 700;
+        font-size:  1.375rem;
+        line-height: 2.125rem;
+    }
+
+    &.three{
+        font-size: 1rem;
+        line-height: 1.875rem;
+        
+    }
+
+    &.four{
+        font-size: 0.75rem;
+        line-height: 26px;
+    }
+}
+
+.headline{
+    font-family: var(--font-family-primary);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: var(--grey-3);
+}
