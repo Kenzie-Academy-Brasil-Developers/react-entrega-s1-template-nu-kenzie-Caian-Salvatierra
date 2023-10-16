@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Input } from "../Input";
 import { TodoSelect } from "../TodoSelect";
 
-import style from "./style.module.scss"
+import style from "./style.module.scss";
 
 export const TodoForm = ({addNote}) => {
   const [description, setDescription] = useState("");
